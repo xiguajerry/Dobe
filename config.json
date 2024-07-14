@@ -1,0 +1,133 @@
+{
+  "Settings": {
+    "Input": "input.jar",
+    "Output": "output.jar",
+    "Libraries": [],
+    "Exclusions": [],
+    "GenerateRemap": true,
+    "RemapOutput": "mappings.json",
+    "ParallelProcessing": false,
+    "CustomDictionary": [],
+    "DictionaryStartIndex": 0,
+    "CorruptOutput": false,
+    "FileRemovePrefix": [],
+    "FileRemoveSuffix": []
+  },
+  "AntiDebug": {
+    "Enabled": false,
+    "SourceDebug": true,
+    "LineDebug": true,
+    "RenameSourceDebug": false,
+    "SourceNames": [
+      "114514.java",
+      "1919810.kt",
+      "69420.java",
+      "你妈死了.kt"
+    ]
+  },
+  "Shrinking": {
+    "Enabled": false,
+    "RemoveInnerClass": true,
+    "RemoveUnusedLabel": true,
+    "RemoveNOP": false,
+    "Exclusions": []
+  },
+  "KotlinOptimizer": {
+    "Enabled": false,
+    "RemoveMetadata": true,
+    "RemoveIntrinsics": true,
+    "IntrinsicsRemoval": [
+      "checkExpressionValueIsNotNull",
+      "checkNotNullExpressionValue",
+      "checkReturnedValueIsNotNull",
+      "checkFieldIsNotNull",
+      "checkParameterIsNotNull",
+      "checkNotNullParameter"
+    ],
+    "IntrinsicsExclusions": [],
+    "MetadataExclusions": []
+  },
+  "StringEncrypt": {
+    "Enabled": false,
+    "Intensity": 1,
+    "Exclusions": []
+  },
+  "NumberEncrypt": {
+    "Enabled": false,
+    "FloatingPoint": true,
+    "Intensity": 1,
+    "Exclusions": []
+  },
+  "ScrambleTransformer": {
+    "Enabled": false,
+    "Intensity": 1,
+    "RandomName": false,
+    "RedirectGetStatic": true,
+    "RedirectSetStatic": true,
+    "RedirectGetValue": true,
+    "RedirectSetField": true,
+    "GenerateOuterClass": false,
+    "ExcludedClasses": [],
+    "ExcludedFieldName": [],
+    "NativeDownCalls": true,
+    "NativeUpCalls": false
+  },
+  "NativeCandidate": {
+    "Enabled": false,
+    "NativeAnnotation": "Lnet/spartanb312/example/Native;",
+    "UpCallLimit": 0,
+    "Exclusions": []
+  },
+  "LocalVariableRename": {
+    "Enabled": false,
+    "Dictionary": "Alphabet",
+    "ThisReference": false
+  },
+  "MethodRename": {
+    "Enabled": false,
+    "Dictionary": "Alphabet",
+    "HeavyOverloads": false,
+    "RandomKeywordPrefix": false,
+    "Prefix": "",
+    "Exclusion": [],
+    "ExcludedName": []
+  },
+  "FieldRename": {
+    "Enabled": false,
+    "Dictionary": "Alphabet",
+    "RandomKeywordPrefix": false,
+    "Prefix": "",
+    "Exclusion": [],
+    "ExcludedName": []
+  },
+  "ClassRename": {
+    "Enabled": false,
+    "Dictionary": "Alphabet",
+    "Parent": "net/spartanb312/obf/",
+    "Prefix": "",
+    "CorruptedName": false,
+    "CorruptedNameExclusions": [],
+    "ManifestReplace": [
+      "Main-Class"
+    ],
+    "PluginMainReplace": false,
+    "BungeeMainReplace": false,
+    "Exclusion": [],
+    "MixinSupport": false,
+    "MixinDictionary": "Alphabet",
+    "MixinPackage": "net/spartanb312/client/mixins/",
+    "TargetMixinPackage": "net/spartanb312/obf/mixins/",
+    "MixinFile": "mixins.example.json",
+    "RefmapFile": "mixins.example.refmap.json"
+  },
+  "ShuffleMembers": {
+    "Enabled": false,
+    "Methods": true,
+    "Fields": true,
+    "Annotations": true
+  },
+  "Watermark": {
+    "Enabled": false,
+    "Watermark Message": "PROTECTED BY GRUNT KLASS MASTER"
+  }
+}
